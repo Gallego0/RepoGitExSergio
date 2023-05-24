@@ -12,10 +12,14 @@ public class Edades {
 		        for (int num : array) {
 		            if (num > 18) {
 		             contadorMayores += num;
+		             return contadorMayores;
+						
 		            }
 		            
 		            if (num < 18) {
 		             contadorMenores += num;
+		             return contadorMenores;
+		             
 		            }
 		            
 		            if (num > 65) {
